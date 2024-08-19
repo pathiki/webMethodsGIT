@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="shared">Ci8vcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIFBBQ0tBR0VfTkFNRSA9ICJ4eHh4IjsKcHJp
+dmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIENPTkZJR19GSUxFX05BTUUgPSAiSW50ZXJmYWNlQ29u
+ZmlnLnhtbCI7Ci8vcHJpdmF0ZSBzdGF0aWMgZmluYWwgU3RyaW5nIENPTkZJR19GSUxFX1BST1BF
+UlRZX05BTUUgPSAid2F0dC54eHguY29uZmlnRmlsZSI7CgoK</value>
+  <value name="encodeutf8">true</value>
+  <value name="extends"></value>
+  <array name="implements" type="value" depth="1">
+  </array>
+  <array name="imports" type="value" depth="1">
+    <value>com.wm.app.b2b.server.ServerAPI</value>
+    <value>com.wm.lang.ns.NSName</value>
+    <value>com.wm.lang.ns.NSService</value>
+    <value>com.wm.app.b2b.server.InvokeState</value>
+    <value>java.io.File</value>
+    <value>java.util.Stack</value>
+  </array>
+</Values>
