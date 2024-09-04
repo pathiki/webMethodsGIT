@@ -15,7 +15,7 @@ steps:
 - task: BatchScript@1
   inputs:
     filename: 'C:/SoftwareAG/common/AssetBuildEnvironment/bin/build.bat'
-    arguments: '-Dbuild.output.dir=C:\Users\HariPrasad\Box\Learnings\IS_Builds -Dbuild.source.project.dir=C:/Users/HariPrasad/git/webMethodsGIT/assets/IS/packages -Denable.build.IS=true'
+    
 - task: BatchScript@1
   inputs:
     filename: 'C:/SoftwareAG/common/lib/ant/bin/ant.bat'
