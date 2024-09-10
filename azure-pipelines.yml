@@ -12,11 +12,7 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
-- task: BatchScript@1
-  inputs:
-    filename: '%BUILDPATH%\build.bat'
-  displayName: 'Build'
-
+  
 - task: PowerShell@2
   inputs:
     filePath: '${env:BUILDPATH}'
