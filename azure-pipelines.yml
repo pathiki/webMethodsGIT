@@ -16,3 +16,7 @@ steps:
   inputs:
     filename: '%BUILDPATH%\build.bat'
   displayName: 'Build'
+
+- task: PowerShell@2
+  inputs:
+    filePath: '${env:BUILDPATH}'
