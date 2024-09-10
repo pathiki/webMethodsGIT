@@ -12,10 +12,7 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
-- task: CmdLine@2
+- task: BatchScript@1
   inputs:
-    script: '$(BUILDPATH)\\build.bat -Dbuild.output.dir=C:\\Users\\HariPrasad\\Box\\Learnings\\IS_Builds -Dbuild.source.project.dir=C:\\sers\\HariPrasad\\git\\webMethodsGIT\\assets\\IS\\packages -Denable.build.IS=true'
-- script: 
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+    filename: '%BUILDPATH%\build.bat'
+  displayName: 'Build'
