@@ -10,9 +10,9 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: echo Hello, world!
+- script: 
   displayName: 'Run a one-line script'
 
 - task: CmdLine@2
   inputs:
-    script: 'echo ''$(System.DefaultWorkingDirectory)'''
+    script: cd  ''$(buildPath)'''
