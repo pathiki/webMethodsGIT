@@ -15,4 +15,4 @@ steps:
 
 - task: CmdLine@2
   inputs:
-    script: cd  ''$(buildPath)'''
+    script: cd  '$(buildPath)'
