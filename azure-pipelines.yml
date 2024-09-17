@@ -13,6 +13,10 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
   
+  
+- task: PowerShell@2
+  inputs:
+    filePath: 'cd C:\'
 - task: PowerShell@2
   inputs:
     filePath: '${env:BUILDPATH}\\build.bat'
