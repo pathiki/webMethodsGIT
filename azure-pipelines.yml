@@ -15,4 +15,4 @@ steps:
   
 - task: PowerShell@2
   inputs:
-    filePath: '${env:BUILDPATH}'
+    filePath: '${env:BUILDPATH}\\build.bat'
