@@ -10,7 +10,7 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: 
+- script:  cd c:/
   displayName: 'Run a one-line script'
 
 - task: CmdLine@2
