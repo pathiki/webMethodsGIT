@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: Azure Pipelines
+  vmImage: Hosted Agent
 
 steps:
 - script:  cd c:/
