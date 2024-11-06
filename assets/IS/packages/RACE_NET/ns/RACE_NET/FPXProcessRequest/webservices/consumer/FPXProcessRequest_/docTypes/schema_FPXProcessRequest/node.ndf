@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <record name="schema" javaclass="com.wm.util.Values">
+    <value name="node_type">schema</value>
+    <value name="node_nsName">RACE_NET.FPXProcessRequest.webservices.consumer.FPXProcessRequest_.docTypes:schema_FPXProcessRequest</value>
+    <value name="node_pkg">RACE_NET</value>
+    <value name="is_public">false</value>
+    <value name="contentType">3</value>
+    <value name="targetNamespace">http://PlatoCapital.Com/</value>
+    <value name="schemaDomain">a2619e78e7042ecd14b6f544faf</value>
+    <record name="attributes" javaclass="com.wm.util.Values">
+      <list name="table">
+      </list>
+    </record>
+    <record name="elements" javaclass="com.wm.util.Values">
+      <list name="table">
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">NetWorkRequestResponse</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://PlatoCapital.Com/</value>
+                <value name="name">NetWorkRequestResult</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">2</value>
+                  <value name="internalType">reference</value>
+                  <record name="targetName" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://PlatoCapital.Com/</value>
+                    <value name="ncName">NRResponse</value>
+                  </record>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://PlatoCapital.Com/</value>
+                    <value name="ncName">NetWorkRequestResult</value>
+                  </record>
+                  <value name="minOccurs">0</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">NetWorkRequest</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://PlatoCapital.Com/</value>
+                <value name="name">NRRequest</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">2</value>
+                  <value name="internalType">reference</value>
+                  <record name="targetName" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://PlatoCapital.Com/</value>
+                    <value name="ncName">NRRequest</value>
+                  </record>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+                <value name="nullable">true</value>
+                <value name="nillable">true</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://PlatoCapital.Com/</value>
+                    <value name="ncName">NRRequest</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">ProcessRequestResponse</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://PlatoCapital.Com/</value>
+                <value name="name">ProcessRequestResult</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">2</value>
+                  <value name="internalType">reference</value>
+                  <record name="targetName" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://PlatoCapital.Com/</value>
+                    <value name="ncName">Response</value>
+                  </record>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://PlatoCapital.Com/</value>
+                    <value name="ncName">ProcessRequestResult</value>
+                  </record>
+                  <value name="minOccurs">0</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="tagType">element</value>
+          <value name="name">ProcessRequest</value>
+          <record name="type" javaclass="com.wm.util.Values">
+            <value name="contentType">2</value>
+            <value name="internalType">instance</value>
+            <list name="elements">
+              <record javaclass="com.wm.util.Values">
+                <value name="tagType">element</value>
+                <value name="xmlns">http://PlatoCapital.Com/</value>
+                <value name="name">DRRequest</value>
+                <record name="type" javaclass="com.wm.util.Values">
+                  <value name="contentType">2</value>
+                  <value name="internalType">reference</value>
+                  <record name="targetName" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://PlatoCapital.Com/</value>
+                    <value name="ncName">Request</value>
+                  </record>
+                </record>
+                <value name="form">true</value>
+                <value name="internalType">instance</value>
+                <value name="nullable">true</value>
+                <value name="nillable">true</value>
+              </record>
+            </list>
+            <list name="attributes">
+            </list>
+            <record name="contentModel" javaclass="com.wm.util.Values">
+              <record name="symbol" javaclass="com.wm.util.Values">
+                <value name="ncName">$$SEQUENCE</value>
+              </record>
+              <value name="minOccurs">1</value>
+              <value name="maxOccurs">1</value>
+              <value name="modelType">sequence</value>
+              <list name="children">
+                <record javaclass="com.wm.util.Values">
+                  <record name="symbol" javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://PlatoCapital.Com/</value>
+                    <value name="ncName">DRRequest</value>
+                  </record>
+                  <value name="minOccurs">1</value>
+                  <value name="maxOccurs">1</value>
+                  <value name="modelType">simple</value>
+                </record>
+              </list>
+            </record>
+          </record>
+          <value name="internalType">instance</value>
+          <value name="classname">com.wm.lang.schema.WmElement</value>
+        </record>
+      </list>
+    </record>
+    <record name="types" javaclass="com.wm.util.Values">
+      <list name="table">
+        <record javaclass="com.wm.util.Values">
+          <value name="contentType">2</value>
+          <value name="internalType">instance</value>
+          <value name="name">NRResponse</value>
+          <list name="elements">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://PlatoCapital.Com/</value>
+              <value name="name">MessageID</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+              <value name="nullable">true</value>
+              <value name="nillable">true</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://PlatoCapital.Com/</value>
+              <value name="name">DateTime</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+              <value name="nullable">true</value>
+              <value name="nillable">true</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://PlatoCapital.Com/</value>
+              <value name="name">BankID</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+              <value name="nullable">true</value>
+              <value name="nillable">true</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://PlatoCapital.Com/</value>
+              <value name="name">MessageType</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+              <value name="nullable">true</value>
+              <value name="nillable">true</value>
+            </record>
+          </list>
+          <list name="attributes">
+          </list>
+          <record name="contentModel" javaclass="com.wm.util.Values">
+            <record name="symbol" javaclass="com.wm.util.Values">
+              <value name="ncName">$$SEQUENCE</value>
+            </record>
+            <value name="minOccurs">1</value>
+            <value name="maxOccurs">1</value>
+            <value name="modelType">sequence</value>
+            <list name="children">
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://PlatoCapital.Com/</value>
+                  <value name="ncName">MessageID</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://PlatoCapital.Com/</value>
+                  <value name="ncName">DateTime</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://PlatoCapital.Com/</value>
+                  <value name="ncName">BankID</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://PlatoCapital.Com/</value>
+                  <value name="ncName">MessageType</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+            </list>
+          </record>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://PlatoCapital.Com/</value>
+              <value name="ncName">NRResponse</value>
+            </record>
+          </array>
+          <value name="classname">com.wm.lang.schema.WmComplexType</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="contentType">2</value>
+          <value name="internalType">instance</value>
+          <value name="name">Response</value>
+          <list name="elements">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://PlatoCapital.Com/</value>
+              <value name="name">FPXResponseMessage</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+              <value name="nullable">true</value>
+              <value name="nillable">true</value>
+            </record>
+          </list>
+          <list name="attributes">
+          </list>
+          <record name="contentModel" javaclass="com.wm.util.Values">
+            <record name="symbol" javaclass="com.wm.util.Values">
+              <value name="ncName">$$SEQUENCE</value>
+            </record>
+            <value name="minOccurs">1</value>
+            <value name="maxOccurs">1</value>
+            <value name="modelType">sequence</value>
+            <list name="children">
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://PlatoCapital.Com/</value>
+                  <value name="ncName">FPXResponseMessage</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+            </list>
+          </record>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://PlatoCapital.Com/</value>
+              <value name="ncName">Response</value>
+            </record>
+          </array>
+          <value name="classname">com.wm.lang.schema.WmComplexType</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="contentType">2</value>
+          <value name="internalType">instance</value>
+          <value name="name">Request</value>
+          <list name="elements">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://PlatoCapital.Com/</value>
+              <value name="name">FPXRequestMessage</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+              <value name="nullable">true</value>
+              <value name="nillable">true</value>
+            </record>
+          </list>
+          <list name="attributes">
+          </list>
+          <record name="contentModel" javaclass="com.wm.util.Values">
+            <record name="symbol" javaclass="com.wm.util.Values">
+              <value name="ncName">$$SEQUENCE</value>
+            </record>
+            <value name="minOccurs">1</value>
+            <value name="maxOccurs">1</value>
+            <value name="modelType">sequence</value>
+            <list name="children">
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://PlatoCapital.Com/</value>
+                  <value name="ncName">FPXRequestMessage</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+            </list>
+          </record>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://PlatoCapital.Com/</value>
+              <value name="ncName">Request</value>
+            </record>
+          </array>
+          <value name="classname">com.wm.lang.schema.WmComplexType</value>
+        </record>
+        <record javaclass="com.wm.util.Values">
+          <value name="contentType">2</value>
+          <value name="internalType">instance</value>
+          <value name="name">NRRequest</value>
+          <list name="elements">
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://PlatoCapital.Com/</value>
+              <value name="name">MessageID</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+              <value name="nullable">true</value>
+              <value name="nillable">true</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://PlatoCapital.Com/</value>
+              <value name="name">DateTime</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+              <value name="nullable">true</value>
+              <value name="nillable">true</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://PlatoCapital.Com/</value>
+              <value name="name">BankID</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+              <value name="nullable">true</value>
+              <value name="nillable">true</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="tagType">element</value>
+              <value name="xmlns">http://PlatoCapital.Com/</value>
+              <value name="name">MessageType</value>
+              <record name="type" javaclass="com.wm.util.Values">
+                <value name="contentType">1</value>
+                <value name="internalType">reference</value>
+                <value name="dataTypeVersion">dtVersion2</value>
+                <array name="targetNames" type="record" depth="1">
+                  <record javaclass="com.wm.util.Values">
+                    <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+                    <value name="ncName">string</value>
+                  </record>
+                </array>
+              </record>
+              <value name="form">true</value>
+              <value name="internalType">instance</value>
+              <value name="nullable">true</value>
+              <value name="nillable">true</value>
+            </record>
+          </list>
+          <list name="attributes">
+          </list>
+          <record name="contentModel" javaclass="com.wm.util.Values">
+            <record name="symbol" javaclass="com.wm.util.Values">
+              <value name="ncName">$$SEQUENCE</value>
+            </record>
+            <value name="minOccurs">1</value>
+            <value name="maxOccurs">1</value>
+            <value name="modelType">sequence</value>
+            <list name="children">
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://PlatoCapital.Com/</value>
+                  <value name="ncName">MessageID</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://PlatoCapital.Com/</value>
+                  <value name="ncName">DateTime</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://PlatoCapital.Com/</value>
+                  <value name="ncName">BankID</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+              <record javaclass="com.wm.util.Values">
+                <record name="symbol" javaclass="com.wm.util.Values">
+                  <value name="xmlns">http://PlatoCapital.Com/</value>
+                  <value name="ncName">MessageType</value>
+                </record>
+                <value name="minOccurs">1</value>
+                <value name="maxOccurs">1</value>
+                <value name="modelType">simple</value>
+              </record>
+            </list>
+          </record>
+          <array name="parent-ancestors" type="record" depth="1">
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
+              <value name="ncName">anyType</value>
+            </record>
+            <record javaclass="com.wm.util.Values">
+              <value name="xmlns">http://PlatoCapital.Com/</value>
+              <value name="ncName">NRRequest</value>
+            </record>
+          </array>
+          <value name="classname">com.wm.lang.schema.WmComplexType</value>
+        </record>
+      </list>
+    </record>
+    <record name="uriReferencePrefixPairs" javaclass="com.wm.util.Values">
+      <value name="http://schemas.xmlsoap.org/soap/encoding/">wmns1</value>
+      <value name="http://www.w3.org/2001/XMLSchema">s</value>
+      <value name="http://PlatoCapital.Com/">tns</value>
+      <value name="http://www.w3.org/1999/XMLSchema">ns</value>
+    </record>
+    <value name="modifiable">true</value>
+  </record>
+</Values>

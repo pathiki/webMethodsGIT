@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="enabled">yes</value>
+  <value name="system_package">no</value>
+  <value name="version">1.0</value>
+  <null name="startup_services"/>
+  <null name="shutdown_services"/>
+  <null name="replication_services"/>
+  <null name="requires"/>
+  <null name="listACL"/>
+  <value name="webappLoad">yes</value>
+  <value name="name">RACE_NET</value>
+  <value name="build"></value>
+  <null name="description"/>
+  <value name="time">2015-05-05 16:18:02 SGT</value>
+  <value name="jvm_version">1.8.0_31</value>
+  <value name="publisher">dvmuatwin075.sec.ahb.com</value>
+  <value name="patch_nums"></value>
+  <array name="patch_history" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="name">Amsecure_CC_Rel4_myBuild_1683855714756</value>
+      <value name="version">1.0</value>
+      <value name="build"></value>
+      <value name="description">Amsecure_CC_Rel4_Amsecure Contact Centre Kill Switch</value>
+      <value name="time">2023-05-12 09:41:54 SGT</value>
+      <value name="jvm_version">1.8.0_31</value>
+      <null name="publisher"/>
+      <value name="patch_nums"></value>
+      <null name="target_pkg_version"/>
+      <null name="source_server_version"/>
+      <null name="target_server_version"/>
+      <null name="type"/>
+      <null name="retainPatchHistory"/>
+      <null name="target_pkg_name"/>
+    </record>
+  </array>
+</Values>
