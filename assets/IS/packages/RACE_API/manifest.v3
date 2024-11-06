@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="enabled">yes</value>
+  <value name="system_package">no</value>
+  <value name="version">1.0</value>
+  <null name="startup_services"/>
+  <null name="shutdown_services"/>
+  <null name="replication_services"/>
+  <null name="requires"/>
+  <null name="listACL"/>
+  <value name="webappLoad">yes</value>
+  <value name="name">RACE_API</value>
+  <value name="build"></value>
+  <value name="description">RACE0151_</value>
+  <value name="time">2018-08-17 10:38:17 SGT</value>
+  <value name="jvm_version">1.8.0_31</value>
+  <null name="publisher"/>
+  <value name="patch_nums"></value>
+  <array name="patch_history" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="name">3D-IMSAmsecure_SubmitAuth_Rel3_myBuild_3D-IMS-AMS_SubmitAuth_1714966104542</value>
+      <value name="version">1.0</value>
+      <value name="build"></value>
+      <value name="description">RACE0151_</value>
+      <value name="time">2024-05-06 08:58:24 IST</value>
+      <value name="jvm_version">1.8.0_31</value>
+      <null name="publisher"/>
+      <value name="patch_nums"></value>
+      <null name="target_pkg_version"/>
+      <null name="source_server_version"/>
+      <null name="target_server_version"/>
+      <null name="type"/>
+      <null name="retainPatchHistory"/>
+      <null name="target_pkg_name"/>
+    </record>
+  </array>
+</Values>
