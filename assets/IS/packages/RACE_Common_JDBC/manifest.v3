@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="enabled">yes</value>
+  <value name="system_package">no</value>
+  <value name="version">1.0</value>
+  <null name="startup_services"/>
+  <null name="shutdown_services"/>
+  <null name="replication_services"/>
+  <null name="requires"/>
+  <null name="listACL"/>
+  <value name="name">RACE_Common_JDBC</value>
+  <value name="build">001</value>
+  <value name="description">Pkg_migration_VM-Preprod1_</value>
+  <value name="time">2015-05-15 12:02:19 SGT</value>
+  <value name="jvm_version">1.5.0_15</value>
+  <null name="publisher"/>
+  <value name="patch_nums"></value>
+  <array name="patch_history" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="name">purge_myBuild_1588144565520</value>
+      <value name="version">1.0</value>
+      <value name="build">001</value>
+      <value name="description">Pkg_migration_VM-Preprod1_</value>
+      <value name="time">2020-04-29 15:16:05 SGT</value>
+      <value name="jvm_version">1.5.0_15</value>
+      <null name="publisher"/>
+      <value name="patch_nums"></value>
+      <null name="target_pkg_version"/>
+      <null name="source_server_version"/>
+      <null name="target_server_version"/>
+      <null name="type"/>
+      <null name="retainPatchHistory"/>
+      <null name="target_pkg_name"/>
+    </record>
+  </array>
+  <value name="webappLoad">yes</value>
+</Values>

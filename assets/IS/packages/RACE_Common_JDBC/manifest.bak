@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="enabled">no</value>
+  <value name="system_package">no</value>
+  <value name="version">1.0</value>
+  <null name="startup_services"/>
+  <null name="shutdown_services"/>
+  <null name="replication_services"/>
+  <null name="requires"/>
+  <null name="listACL"/>
+  <value name="name">RACE_Common_JDBC</value>
+  <value name="build">001</value>
+  <value name="description"></value>
+  <value name="time">2015-03-09 15:27:38 SGT</value>
+  <value name="jvm_version">1.5.0_15</value>
+  <value name="publisher">ambg2k514a.SEC.ahb.com</value>
+  <value name="patch_nums"></value>
+</Values>
